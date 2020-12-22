@@ -15,7 +15,7 @@ cat <<-EOF > /usr/bin/v2ray/v2ray/config.json
             "port": $PORT,
             "settings": {
                 "method": "aes-256-cfb",
-                "password": "$PASSWORD",
+                "password": "$PASSWORD"
             }
         }
   ],
