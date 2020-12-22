@@ -10,7 +10,7 @@ touch /usr/bin/v2ray/v2ray/config.json
 cat <<-EOF > /usr/bin/v2ray/v2ray/config.json
 {
   "inbounds": [
-  {
+        {
             "protocol": "shadowsocks",
             "port": $PORT,
             "settings": {
